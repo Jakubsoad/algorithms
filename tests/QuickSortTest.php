@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 class QuickSortTest extends TestCase
 {
-    public function testQuickSort()
+    public function testQuickSort(): void
     {
         $array = range(0, 100);
         shuffle($array);

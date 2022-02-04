@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 class BinarySearchTest extends TestCase
 {
-    public function testBinarySearch()
+    public function testBinarySearch(): void
     {
         $sortedList = range(2, 1000, 2);
         $search = rand(0, 1000);

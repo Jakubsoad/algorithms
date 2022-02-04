@@ -1,1 +1,1 @@
-{"version":1,"defects":{"QuickSortTest::testQuickSort":4,"BinarySearchTest::testBinarySearch":3},"times":{"QuickSortTest::testQuickSort":0,"BinarySearchTest::testBinarySearch":0.002}}
+{"version":1,"defects":{"QuickSortTest::testQuickSort":4,"BinarySearchTest::testBinarySearch":3,"SelectionSortTest::testSelectionSort":3},"times":{"QuickSortTest::testQuickSort":0,"BinarySearchTest::testBinarySearch":0.016,"CountArrayTest::testCountArray":0.001,"SelectionSortTest::testSelectionSort":0.007,"SumRecursiveTest::testSumRecursive":0.001}}

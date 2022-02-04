@@ -8,8 +8,3 @@ function countArray(array $array): int
     array_pop($array);
     return 1 + countArray($array);
 }
-
-$array = range(0, 123);
-
-echo $result = countArray($array);
-echo PHP_EOL . (count($array) === $result ? 'true' : 'false');

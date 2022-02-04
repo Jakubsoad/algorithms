@@ -25,10 +25,3 @@ function selectionSort(array $array): array
 
     return $returnArr;
 }
-
-$unsortedArr = [];
-for ($i=0;$i<10;$i++) {
-    $unsortedArr[] = rand(0, 100);
-}
-
-var_dump(selectionSort($unsortedArr));

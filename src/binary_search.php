@@ -9,8 +9,6 @@ function binarySearch(array $sortedList, int $search): ?int
         $mid = round(($low + $high) / 2);
         $guess = $sortedList[$mid];
 
-        echo "$low $mid $high \n";
-
         if ($guess === $search) {
             return $mid;
         } elseif ($guess > $search) {
@@ -22,8 +20,3 @@ function binarySearch(array $sortedList, int $search): ?int
 
     return null;
 }
-
-$sortedList = range(0, 1000);
-$search = rand(0, 1000);
-
-var_dump(binarySearch($sortedList, $search));
